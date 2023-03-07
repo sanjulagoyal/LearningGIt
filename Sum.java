@@ -1,8 +1,11 @@
 public class Sum{
     public static void main(String args[]){
-        int a = 6;
-        int b = 5;
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Enter First Number")
+        int a = scn.nextInt();
+        System.out.println("Enter Second Number")
+        int b = scn.nextInt();
+        System.out.println("Sum of two number is: " a+b);
 
-        System.out.println(a+b);
     }
 }
